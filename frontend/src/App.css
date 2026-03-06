@@ -1,28 +1,40 @@
-body{
-background:#f5f7fb;
-font-family:Arial;
+
+body {
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
 }
 
-.app{
-text-align:center;
-padding:30px;
+.app {
+  text-align: center;
+  padding: 40px;
 }
 
-.title{
-font-size:40px;
-margin-bottom:30px;
-color:#333;
+.title {
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
-.container{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:30px;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
 }
 
-.section{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
+.section {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
