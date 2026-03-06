@@ -1,0 +1,32 @@
+# Query: python.ter
+# ContextLines: 1
+
+9 results - 1 file
+
+\defaultSettings.jsonc:
+  8358  	// Activate Python Environment in the current Terminal on load of the Extension.
+  8359: 	"python.terminal.activateEnvInCurrentTerminal": false,
+  8360  
+  8361  	// Activate Python Environment in all Terminals created.
+  8362: 	"python.terminal.activateEnvironment": true,
+  8363  
+  8364  	// When executing a file in the terminal, whether to use execute in the file's directory, instead of the current open folder.
+  8365: 	"python.terminal.executeInFileDir": false,
+  8366  
+  8367  	// When launching a python terminal, whether to focus the cursor on the terminal.
+  8368: 	"python.terminal.focusAfterLaunch": false,
+  8369  
+  8370  	// Python launch arguments to use when executing a file in the terminal.
+  8371: 	"python.terminal.launchArgs": [],
+  8372  
+  8373  	// Enable [shell integration](https://code.visualstudio.com/docs/terminal/shell-integration) for the terminals running python. Shell integration enhances the terminal experience by enabling command decorations, run recent command, improving accessibility among other things. Note: PyREPL (available in Python 3.13+) is automatically disabled when shell integration is enabled to avoid cursor indentation issues.
+  8374: 	"python.terminal.shellIntegration.enabled": true,
+  8375  
+
+  8820  	// 
+  8821: 	// **Legacy Setting Support:** This setting takes precedence over the legacy `python.terminal.activateEnvironment` setting. If this setting is not explicitly set and `python.terminal.activateEnvironment` is set to false, this setting will automatically be set to `off` to preserve your preference.
+  8822  	// 
+
+  8839  	// Controls whether environment variables from .env files and python.envFile setting are injected into terminals.
+  8840: 	"python.terminal.useEnvFile": true,
+  8841  
